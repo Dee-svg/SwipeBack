@@ -5,7 +5,7 @@
    - 解决侧滑黑频
    - 注入使用更便捷
 ## 使用介绍
--1.[创建Application](https://github.com/skpy5272/SwipeBack/blob/master/app/src/main/java/com/kevin/swipeback/MyTestApplication.java)
+1. [创建Application](https://github.com/skpy5272/SwipeBack/blob/master/app/src/main/java/com/kevin/swipeback/MyTestApplication.java)
 
 ```Java
     public class MyTestApplication extends Application {
@@ -22,7 +22,7 @@
         SwipeBack.init(this);
 ```
 
--2.在 [style.xml](https://github.com/skpy5272/SwipeBack/blob/master/app/src/main/res/values/styles.xml)中创建新的 或继承AppTheme 主题 一切水泥
+2. 在 [style.xml](https://github.com/skpy5272/SwipeBack/blob/master/app/src/main/res/values/styles.xml)中创建新的 或继承AppTheme 主题 一切水泥
 ```Java
     <!--防侧滑黑屏，使用该主题-->
     <style name="AppTheme.SwipeBack" parent="AppTheme">
@@ -30,7 +30,7 @@
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 ```
--3.在AndroidManifest.xml 中使用新建的主题
+3. 在AndroidManifest.xml 中使用新建的主题
 全局
 ```Java
     <application
@@ -57,7 +57,7 @@
 
 [查看其他属性，点这里（懒着画表）](https://github.com/skpy5272/SwipeBack/blob/master/swipeback/src/main/java/com/gw/swipeback/annotations/SetSwipeParameter.java)
 
-5.关闭开启侧滑返回
+5. 关闭开启侧滑返回
 ```Java
 SwipeBack.enableDragToClose(context, false/*false 关闭  true开启*/);
 ```
