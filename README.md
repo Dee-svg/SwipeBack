@@ -47,7 +47,7 @@
 ```
 都行
 
--4. 使用代码对Activity 进行注解
+4. 使用代码对Activity 进行注解
 ```Java
     @EnableSwipeBack()
     @SetSwipeParameter(/*设置是否仅可以从边缘滑动*/isSwipeFromEdge = true ,
@@ -57,7 +57,7 @@
 
 [查看其他属性，点这里（懒着画表）](https://github.com/skpy5272/SwipeBack/blob/master/swipeback/src/main/java/com/gw/swipeback/annotations/SetSwipeParameter.java)
 
--5.关闭开启侧滑返回
+5.关闭开启侧滑返回
 ```Java
 SwipeBack.enableDragToClose(context, false/*false 关闭  true开启*/);
 ```
