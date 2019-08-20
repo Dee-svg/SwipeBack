@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/main_to_next"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="下一个页面"
+        android:gravity="center"
+        android:textColor="#333333"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="是否开启侧滑退出？"
+            android:paddingLeft="15dp"
+            android:textColor="#333333"/>
+        <TextView
+            android:id="@+id/main_open_off_swipe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="点击关闭"
+            android:paddingLeft="25dp"
+            android:textSize="15sp"
+            android:textColor="#333333"/>
+    </LinearLayout>
+</LinearLayout>
